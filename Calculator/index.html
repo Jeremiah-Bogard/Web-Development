@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a basic calculator created with HTML5, CSS3, and JavaScript. This calculator solves equations in order not by order of operations.">
+    <meta name="keywords" content="calculator, Jeremiah Bogard">
+
+    <title>Calculator</title>
+
+    <script defer src="./index.js"></script>
+    <link type="text/css" rel="stylesheet" href="./styles.css"></link>
+</head>
+<body class="flex">
+
+<!-- Title Info -->
+    <div id="title">
+        <h1>Calculator</h1>
+        <p>Created by <a target="_blank" href="https://github.com/Jeremiah-Bogard">Jeremiah Bogard</a></p>
+    </div>
+
+<!-- Calculator Container -->
+    <div id="container" class="flex">
+        <p id="output"></p>
+
+    <!-- All The Buttons -->
+        <div id="buttons">
+            <button id="clear" class="action-btn" onClick="javascript:actionBtn('clear')">Clear</button>
+            <button class="action-btn" onClick="javascript:actionBtn('+')">+</button>
+            <button class="num-btn" onClick="javascript:numBtn(7)">7</button>
+            <button class="num-btn" onClick="javascript:numBtn(8)">8</button>
+            <button class="num-btn" onClick="javascript:numBtn(9)">9</button>
+            <button class="action-btn" onClick="javascript:actionBtn('-')">-</button>
+            <button class="num-btn" onClick="javascript:numBtn(4)">4</button>
+            <button class="num-btn" onClick="javascript:numBtn(5)">5</button>
+            <button class="num-btn" onClick="javascript:numBtn(6)">6</button>
+            <button class="action-btn" onClick="javascript:actionBtn('*')">*</button>
+            <button class="num-btn" onClick="javascript:numBtn(1)">1</button>
+            <button class="num-btn" onClick="javascript:numBtn(2)">2</button>
+            <button class="num-btn" onClick="javascript:numBtn(3)">3</button>
+            <button class="action-btn" onClick="javascript:actionBtn('/')">/</button>
+            <button id="num-zero" class="num-btn" onClick="javascript:numBtn(0)">0</button>
+            <button class="point" onClick="javascript:numBtn('.')">.</button>
+
+            <button id="calc" class="action-btn" onClick="javascript:actionBtn('=')">=</button>
+        </div>
+    </div>
+</body>
+</html>

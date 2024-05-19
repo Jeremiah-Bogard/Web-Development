@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A basic image slider. Change the image with the arrow buttons or by clicking on one of the dots.">
+    <meta name="keywords" content="image, slider, jeremiah bogard">
+    <title>Image Slider</title>
+
+    <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="slider-container">
+        <button class="arrow" onClick="javascript:prevSlide()"><</button>
+        <button class="arrow" onClick="javascript:nextSlide()" style="right: 0;">></button>
+        <img class="slide" src="./image1.jpeg">
+        <img class="slide" src="./image2.jpeg">
+        <img class="slide" src="./image3.jpeg">
+        <img class="slide" src="./image4.jpeg">
+    </div>
+    <div id="dots">
+        <button class="dot selected" onClick="javascript:displaySlide(0)"></button>
+        <button class="dot" onClick="javascript:displaySlide(1)"></button>
+        <button class="dot" onClick="javascript:displaySlide(2)"></button>
+        <button class="dot" onClick="javascript:displaySlide(3)"></button>
+    </div>
+</body>
+</html>
