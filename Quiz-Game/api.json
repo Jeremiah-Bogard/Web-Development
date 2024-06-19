@@ -1,0 +1,302 @@
+[
+    {
+        "question": "What Windows app in Windows 10 combines many utilities into a unified tool?",
+        "options": [
+            "Settings",
+            "Control",
+            "Command Center",
+            "Control Center"
+        ],
+        "correct": [   
+            "Settings"
+        ]
+    },
+    {
+        "question": "What CPU feature enables the microprocessor to support running multiple operation systems at the same time?",
+        "options": [
+            "Clock multiplying",
+            "Caching",
+            "Pipelining",
+            "Virtualization support"
+        ],
+        "correct": [   
+            "Virtualization support"
+        ]
+    },
+    {
+        "question": "Silas has and AMD-based motherboard with two sticks of DDR3 RAM installed in two of the three RAM slots for a total of 8 GB of system memory. When he runs CPU-Z to test the system, he notices that the software claims he's running single-channel memory. What could be the problem? (Select the best answer)",
+        "options": [
+            "His motherboard only supports dual-channel memory.",
+            "His motherboard only supports dual-channel memory with DDR2 RAM, not DDR3.",
+            "He needs to install a third RAM stick to enable dual-channel memory.",
+            "He needs to move one of the installed sticks to a different slot to activate dual-Channel memory."
+        ],
+        "correct": [   
+            "He needs to move one of the installed sticks to a different slot to activate dual-Channel memory."
+        ]
+    },
+    {
+        "question": "Which of the following most accurately describes the relationship between BIOS and hardware?",
+        "options": [
+            "All hardware needs BIOS.",
+            "All hardware that attaches to the motherboard via ribbon cables needs BIOS.",
+            "All hardware built into the motherboard needs BIOS.",
+            "Some hardware devices need BIOS."
+        ],
+        "correct": [   
+            "All hardware needs BIOS."
+        ]
+    },
+    {
+        "question": "Solon has avery buffy computer that keeps locking up at odd moments and rebooting spontaneously. He suspects the motherboard. How should he test it?",
+        "options": [
+            "Check settings and verify good components.",
+            "Verify good components and document all testing.",
+            "Replace the motherboard first to see if the problems disappear.",
+            "Check settings, verify good components, replace components and document all testing."
+        ],
+        "correct": [   
+            "Check settings, verify good components, replace components and document all testing."
+        ]
+    },
+    {
+        "question": "A PC's power supply provides DC power in what standard configuration?",
+        "options": [
+            "Two primary voltage rails, 12 volts and 5 volts, and an auxiliary 3.3 volt connector.",
+            "Three primary voltage rails, one each for 12 volt, 5 volt, and 3.3 volt connectors.",
+            "One primary DC voltage rail for 12 volt, 5 volt and 3.3 volt connectors.",
+            "One voltage rail with a 12 volt connector for the motherboard, a second voltage rail with a 12 volt connector for the CPU, and a third voltage rail for the 5 volt and 3.3 volt connectors."
+        ],
+        "correct": [   
+            "Three primary voltage rails, one each for 12 volt, 5 volt, and 3.3 volt connectors."
+        ]
+    },
+    {
+        "question": "Which SATA version offers the least overhead (and thus best performance)?",
+        "options": [
+            "AHCI",
+            "SATA 2.0",
+            "PATA 3.0",
+            "SATAe"
+        ],
+        "correct": [   
+            "SATAe"
+        ]
+    },
+    {
+        "question": "Which of the following correctly identifies the four possible entries in a file allocation table?",
+        "options": [
+            "File name, date, time, size",
+            "Number of the starting cluster number of the ending cluster, number of used clusters, number of available clusters.",
+            "An end-of-file marker, a bad-block marker, code indicating the cluster is available, the number of the cluster where the next part of the file is stored.",
+            "File name, folder location, starting cluster number, ending cluster number."
+        ],
+        "correct": [   
+            "An end-of-file marker, a bad-block marker, code indicating the cluster is available, the number of the cluster where the next part of the file is stored."
+        ]
+    },
+    {
+        "question": "You've just replaced Jane's Windows 7 PC with a new Windows 10 machine. What post-installation tool should you run to make the transition as painless as possible for her?",
+        "options": [
+            "Windows Activation",
+            "Repair installation",
+            "Windows Easy Transfer",
+            "User State Migration Tool"
+        ],
+        "correct": [   
+            "Windows Easy Transfer"
+        ]
+    },
+    {
+        "question": "Which of the following root keys contains the data for a system's non-user-specific configurations?",
+        "options": [
+            "HKEY_LOCAL_MACHINE",
+            "HKEY_USERS",
+            "HKEY_CURRENT_USER",
+            "HKEY_CLASSES_ROOT"
+        ],
+        "correct": [   
+            "HKEY_LOCAL_MACHINE"
+        ]
+    },
+    {
+        "question": "You copy a file from a folder on a hard drive formatted as NTFS, with permissions set to Read for everyone, to a USB thumb drive formatted as FAT32. What effective permissions does the copy of the file have?",
+        "options": [
+            "Read-only for everyone",
+            "Full Control for everyone.",
+            "None.",
+            "You can't copy a file from an NTFS drive to a FAT32 drive."
+        ],
+        "correct": [   
+            "None."
+        ]
+    },
+    {
+        "question": "What tool enable you to modify which programs start when Windows 10 starts?",
+        "options": [
+            "msstartup",
+            "msinfo32",
+            "msconfig",
+            "Task Manager"
+        ],
+        "correct": [   
+            "Task Manager"
+        ]
+    },
+    {
+        "question": "Which of the following commands will delete all the files in a directory in Linux?",
+        "options": [
+            "del *.*",
+            "del all",
+            "rm *",
+            "rm all"
+        ],
+        "correct": [   
+            "rm *"
+        ]
+    },
+    {
+        "question": "What can device drivers and failing hardware in macOS and LInux cause?",
+        "options": [
+            "Spinning windmill",
+            "Blue Screen of Death (BSoD)",
+            "Kernel panic",
+            "Terminal emulation"
+        ],
+        "correct": [   
+            "Kernel panic"
+        ]
+    },
+    {
+        "question": "Which of the following is an example of a hybrid topology?",
+        "options": [
+            "Bus",
+            "Ring",
+            "Star",
+            "Star bus"
+        ],
+        "correct": [   
+            "Star bus"
+        ]
+    },
+    {
+        "question": "Which of the following is the correct net syntax for discovering which network shares on a particular server are mapped on your computer?",
+        "options": [
+            "net view \\\\fileserver",
+            "net \\\\fileserver",
+            "net map \\\\fileserver",
+            "net share \\\\fileserver"
+        ],
+        "correct": [   
+            "net view \\\\fileserver"
+        ]
+    },
+    {
+        "question": "What technology enables 802.11n networks to make multiple simultaneous connections and thus improve speed over previous Wi-Fi standards?",
+        "options": [
+            "Use of the 2.4 GHz frequency.",
+            "Use of the 5 Ghz frequency.",
+            "MIMO",
+            "WPA2"
+        ],
+        "correct": [   
+            "MIMO"
+        ]
+    },
+    {
+        "question": "What option often enables you to diagnose TCP/IP errors such as connection problems?",
+        "options": [
+            "FTP",
+            "ping",
+            "Qos",
+            "APIPA"
+        ],
+        "correct": [   
+            "ping"
+        ]
+    },
+    {
+        "question": "What is the difference between a virtual machine (VM) and an emulator?",
+        "options": [
+            "A VM converts commands to and from a host machine to and entirely different platform, whereas an emulator creates an environment based on the host machine and does no converting.",
+            "An emulator converts commands to and from a host machine to and entirely different platform, whereas a VM creates an environment based on the host machine and does no converting.",
+            "An emulator requires a host OS, whereas a VM runs on bare-metal servers without and OS.",
+            "A VM requires a host OS, whereas an emulator runs on bare-metal servers without an OS."
+        ],
+        "correct": [   
+            "An emulator converts commands to and from a host machine to and entirely different platform, whereas a VM creates an environment based on the host machine and does no converting."
+        ]
+    },
+    {
+        "question": "Which of the following display types will you commonly find on a portable PC today?",
+        "options": [
+            "CRT",
+            "LCD",
+            "OLED",
+            "Plasma"
+        ],
+        "correct": [   
+            "LCD"
+        ]
+    },
+    {
+        "question": "What information do you need to connect an Android-based tablet to an IMAP account?",
+        "options": [
+            "POP3 server DNS name.",
+            "Username and password.",
+            "Username, password, sending and receiving server addresses.",
+            "Exchange server name, username and password."
+        ],
+        "correct": [   
+            "Username, password, sending and receiving server addresses."
+        ]
+    },
+    {
+        "question": "Which mobile operating system requires a third-party software firewall?",
+        "options": [
+            "Android",
+            "macOS",
+            "Windows Mobile",
+            "iOS"
+        ],
+        "correct": [   
+            "Android"
+        ]
+    },
+    {
+        "question": "Which tool would help you determine why a print job didn't print?",
+        "options": [
+            "Printer driver",
+            "Printer setup",
+            "Printer spooler",
+            "System setup"
+        ],
+        "correct": [   
+            "Printer spooler"
+        ]
+    },
+    {
+        "question": "Which hardware firewall feature enables incoming traffic on a specific port to reach an IP address on the LAN?",
+        "options": [
+            "Port forwarding",
+            "NAT",
+            "DMZ",
+            "Multifactor authentication"
+        ],
+        "correct": [   
+            "Port forwarding"
+        ]
+    },
+    {
+        "question": "What broad term describes the process of creating a roadmap for current and future techs to make changes or repairs over time for an organization?",
+        "options": [
+            "Change documentation",
+            "Change management",
+            "Management documentation",
+            "Network documentation"
+        ],
+        "correct": [   
+            "Network documentatio"
+        ]
+    }
+]
